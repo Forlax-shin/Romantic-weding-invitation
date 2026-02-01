@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Emma & Daniel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+    <section id="opening" class="opening">
+        <div class="opening-content">
+            <div class="chapel-scene">
+                <div class="chapel-arch">
+                    <div class="arch-left"></div>
+                    <div class="arch-top"></div>
+                    <div class="arch-right"></div>
+                </div>
+                <div class="chapel-windows">
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                </div>
+                <div class="chapel-pews">
+                    <div class="pew"></div>
+                    <div class="pew"></div>
+                </div>
+                
+                <div class="silhouette groom-sil">
+                    <div class="sil-head"></div>
+                    <div class="sil-body">
+                        <div class="sil-arm-left"></div>
+                        <div class="sil-arm-right"></div>
+                    </div>
+                    <div class="sil-legs">
+                        <div class="sil-leg"></div>
+                        <div class="sil-leg"></div>
+                    </div>
+                </div>
+                
+                <div class="silhouette bride-sil">
+                    <div class="sil-head">
+                        <div class="sil-veil"></div>
+                    </div>
+                    <div class="sil-body">
+                        <div class="sil-arm-left"></div>
+                        <div class="sil-arm-right"></div>
+                        <div class="sil-dress"></div>
+                    </div>
+                </div>
+                
+                <div class="heart-glow"></div>
+                <div class="heart-anim">❤️</div>
+            </div>
+
+            <div class="opening-text">
+                <h3>The Wedding Celebration of</h3>
+                <h1>Emma Rose <span class="amp">&</span> Daniel Hart</h1>
+                <button id="openBtn" class="open-btn">
+                    <span>Open Invitation</span>
+                    <i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <div class="container nav-box">
+            <div class="logo">
+                <i class="fas fa-ring"></i>
+                <span>Emma & Daniel</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#couple"><i class="fas fa-heart"></i> Couple</a></li>
+                <li><a href="#story"><i class="fas fa-book-open"></i> Story</a></li>
+                <li><a href="#events"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                <li><a href="#venue"><i class="fas fa-map-marker-alt"></i> Venue</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#rsvp"><i class="fas fa-envelope"></i> RSVP</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="music-toggle">
+                    <i class="fas fa-music"></i>
+                </button>
+                <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="subtitle">We Are Getting Married</p>
+            <h1>Emma <span class="amp">&</span> Daniel</h1>
+            <p class="date">Sunday, June 21, 2026</p>
+            
+            <div class="countdown">
+                <div class="time-box"><span id="days">00</span><small>Days</small></div>
+                <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+                <div class="time-box"><span id="minutes">00</span><small>Mins</small></div>
+                <div class="time-box"><span id="seconds">00</span><small>Secs</small></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="couple" class="section couple-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Beloved Couple</h2>
+                <p>With the blessing of God and our families</p>
+            </div>
+
+            <div class="couple-wrapper">
+                <div class="couple-card" data-aos="fade-right">
+                    <div class="photo-frame">
+                        <div class="photo-frame-inner">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80" alt="Emma Rose">
+                        </div>
+                        <div class="flower-decoration">
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <h3>Emma Rose</h3>
+                    <p class="parents">Daughter of Mr. & Mrs. Rose</p>
+                    <p class="description">A gentle soul with a passion for art and literature, bringing beauty to everything she touches.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="divider">
+                    <div class="heart-divider">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="couple-card" data-aos="fade-left">
+                    <div class="photo-frame">
+                        <div class="photo-frame-inner">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Daniel Hart">
+                        </div>
+                        <div class="flower-decoration">
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <h3>Daniel Hart</h3>
+                    <p class="parents">Son of Mr. & Mrs. Hart</p>
+                    <p class="description">A compassionate architect who builds dreams into reality, with a heart as strong as his convictions.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Love Story</h2>
+                <p>A journey written by fate, sealed by love</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-date">Summer 2019</div>
+                    <div class="content">
+                        <h3>The First Meeting</h3>
+                        <p>Our eyes met across a crowded art gallery in Paris. You were admiring a Monet, I was admiring you.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-date">Winter 2022</div>
+                    <div class="content">
+                        <h3>Our First Adventure</h3>
+                        <p>We traveled to Japan together, where we discovered our shared love for culture, food, and each sunrise.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-date">Spring 2024</div>
+                    <div class="content">
+                        <h3>The Proposal</h3>
+                        <p>Under the cherry blossoms in Kyoto, Daniel knelt with a ring and a question that changed our lives forever.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="crew" class="section crew-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Wedding Party</h2>
+                <p>The amazing people who stand by our side</p>
+            </div>
+            
+            <div class="crew-wrapper">
+                <div class="crew-group" data-aos="fade-up">
+                    <h3 class="group-title"><i class="fas fa-crown"></i> Bridesmaids</h3>
+                    <div class="crew-members">
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://i.pinimg.com/736x/5f/ee/04/5fee04a5b151aa5420fcc8e23288b99d.jpg" alt="Sophia">
+                            </div>
+                            <h4>Sophia</h4>
+                            <p class="role">Maid of Honor</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80" alt="Olivia">
+                            </div>
+                            <h4>Olivia</h4>
+                            <p class="role">Bridesmaid</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?auto=format&fit=crop&w=300&q=80" alt="Isabella">
+                            </div>
+                            <h4>Isabella</h4>
+                            <p class="role">Bridesmaid</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w-300&q=80" alt="Charlotte">
+                            </div>
+                            <h4>Charlotte</h4>
+                            <p class="role">Bridesmaid</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-group" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="group-title"><i class="fas fa-gem"></i> Groomsmen</h3>
+                    <div class="crew-members">
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Michael">
+                            </div>
+                            <h4>Michael</h4>
+                            <p class="role">Best Man</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="James">
+                            </div>
+                            <h4>James</h4>
+                            <p class="role">Groomsman</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80" alt="Alexander">
+                            </div>
+                            <h4>Alexander</h4>
+                            <p class="role">Groomsman</p>
+                        </div>
+                        <div class="crew-member">
+                            <div class="crew-photo">
+                                <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=300&q=80" alt="William">
+                            </div>
+                            <h4>William</h4>
+                            <p class="role">Groomsman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section bg-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="gold-text">Wedding Events</h2>
+                <p>Join us in celebrating our special day</p>
+            </div>
+
+            <div class="events-wrapper">
+                <div class="event-card" data-aos="flip-left">
+                    <div class="event-header">
+                        <div class="event-icon">
+                            <i class="fas fa-church"></i>
+                        </div>
+                        <h3>Holy Matrimony Ceremony</h3>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-time">
+                            <i class="far fa-clock"></i>
+                            <span>3:00 PM - 5:00 PM</span>
+                        </div>
+                        <div class="event-date">
+                            <i class="far fa-calendar"></i>
+                            <span>June 21, 2026</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>St. Mary's Cathedral, Bali</span>
+                        </div>
+                        <p>A sacred ceremony where we exchange vows before God, family, and friends.</p>
+                        <a href="#" class="btn-outline"><i class="fas fa-directions"></i> Get Directions</a>
+                    </div>
+                </div>
+
+                <div class="event-card" data-aos="flip-right" data-aos-delay="200">
+                    <div class="event-header">
+                        <div class="event-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Wedding Reception</h3>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-time">
+                            <i class="far fa-clock"></i>
+                            <span>6:30 PM - Midnight</span>
+                        </div>
+                        <div class="event-date">
+                            <i class="far fa-calendar"></i>
+                            <span>June 21, 2026</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>The Grand Sunset Ballroom</span>
+                        </div>
+                        <p>An evening of celebration with dinner, dancing, and memories to last a lifetime.</p>
+                        <a href="#" class="btn-outline"><i class="fas fa-directions"></i> Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="venue" class="section venue-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Wedding Venue</h2>
+                <p>Where dreams become reality</p>
+            </div>
+            
+            <div class="venue-wrapper" data-aos="zoom-in">
+                <div class="venue-illustration">
+                    <div class="venue-icon church">
+                        <i class="fas fa-church"></i>
+                        <div class="venue-label">Ceremony Venue</div>
+                    </div>
+                    <div class="venue-icon reception">
+                        <i class="fas fa-glass-cheers"></i>
+                        <div class="venue-label">Reception Venue</div>
+                    </div>
+                    <div class="venue-icon hotel">
+                        <i class="fas fa-hotel"></i>
+                        <div class="venue-label">Accommodation</div>
+                    </div>
+                    <div class="venue-paths"></div>
+                </div>
+                
+                <div class="venue-details">
+                    <div class="venue-info">
+                        <h3><i class="fas fa-church"></i> St. Mary's Cathedral</h3>
+                        <p>Jl. Sunset Road No. 123, Kuta, Bali</p>
+                        <p class="note">*Complimentary shuttle service available</p>
+                    </div>
+                    <div class="venue-info">
+                        <h3><i class="fas fa-glass-cheers"></i> The Grand Sunset Ballroom</h3>
+                        <p>Bali Nusa Dua Convention Center, Nusa Dua, Bali</p>
+                        <p class="note">*Valet parking available for all guests</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Moments</h2>
+                <p>Capturing love through the lens of time</p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-row row1">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=400&q=80" alt="Photo 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80" alt="Photo 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/1200x/5b/b2/f8/5bb2f8bdb4bb2c8853d2fbb98a26eaa3.jpg" alt="Photo 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80" alt="Photo 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80" alt="Photo 5">
+                    </div>
+                </div>
+                
+                <div class="gallery-row row2">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80" alt="Photo 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=400&q=80" alt="Photo 7">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=400&q=80" alt="Photo 8">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/e6/77/11/e67711f52123b57a4d932526f4b43a08.jpg" alt="Photo 9">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/1200x/2b/9f/eb/2b9feb5d113e042b16bac0ad6e3345d1.jpg" alt="Photo 10">
+                    </div>
+                </div>
+                
+                <div class="gallery-row row3">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=400&q=80" alt="Photo 11">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=400&q=80" alt="Photo 12">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=400&q=80" alt="Photo 13">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/63/e2/3b/63e23ba5b37c26a1f4c308c8555b6c4c.jpg" alt="Photo 14">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/42/62/58/426258b85429d8a850870936392fcf19.jpg" alt="Photo 15">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="section rsvp-section">
+        <div class="container">
+            <div class="rsvp-wrapper">
+                <div class="rsvp-box" data-aos="fade-right">
+                    <h2>RSVP Confirmation</h2>
+                    <p class="subtitle">Please confirm your attendance before June 1, 2026</p>
+                    
+                    <form id="rsvpForm" action="https://docs.google.com/forms/d/e/your-google-form-id/formResponse" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="guestName" name="entry.1234567890" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="entry.1234567891" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="entry.1234567892" placeholder="Phone Number">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="attendance" name="entry.1234567893" required>
+                                    <option value="" disabled selected>Will you attend?</option>
+                                    <option value="Yes">Yes, I will attend</option>
+                                    <option value="No">Sorry, I cannot attend</option>
+                                    <option value="Maybe">Maybe</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="guestCount" name="entry.1234567894" required>
+                                    <option value="" disabled selected>Number of guests</option>
+                                    <option value="1">Just myself (1 person)</option>
+                                    <option value="2">Myself + 1 guest (2 people)</option>
+                                    <option value="3">Myself + 2 guests (3 people)</option>
+                                    <option value="4">Myself + 3 guests (4 people)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="entry.1234567895" rows="4" placeholder="Your blessings and messages for the couple"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="entry.1234567896" required>
+                                <span>I agree to receive wedding updates via email</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Submit Confirmation</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="flower-visualization" data-aos="fade-left">
+                    <h3>Our Blossoming Sakura Tree</h3>
+                    <p>Each confirmed guest adds a blossom to our love tree</p>
+                    <div class="sakura-tree-container">
+                        <div class="realistic-tree">
+                            <div class="tree-trunk"></div>
+                            <div class="main-branches">
+                                <div class="branch branch-1"></div>
+                                <div class="branch branch-2"></div>
+                                <div class="branch branch-3"></div>
+                                <div class="branch branch-4"></div>
+                                <div class="branch branch-5"></div>
+                                <div class="branch branch-6"></div>
+                            </div>
+                            <div class="small-branches">
+                                <div class="small-branch"></div>
+                                <div class="small-branch"></div>
+                                <div class="small-branch"></div>
+                                <div class="small-branch"></div>
+                                <div class="small-branch"></div>
+                                <div class="small-branch"></div>
+                            </div>
+                        </div>
+                        <div id="blossomContainer" class="blossoms-container">
+                            <!-- Blossoms will be added by JavaScript -->
+                        </div>
+                        <div class="sakura-info">
+                            <div class="flower-center">
+                                <span class="flower-center-text">E & D</span>
+                            </div>
+                            <div class="falling-petals">
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                                <div class="petal"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guest-counter">
+                        <span id="guestCountDisplay">0</span> blossoms for our love tree
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-ring"></i>
+                    <h3>Emma & Daniel</h3>
+                    <p>June 21, 2026 • Bali, Indonesia</p>
+                </div>
+                
+                <div class="footer-info">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                        <p><i class="fas fa-envelope"></i> wedding@emma-daniel.com</p>
+                    </div>
+                    
+                    <div class="wedding-info">
+                        <h4>Wedding Details</h4>
+                        <p><i class="fas fa-church"></i> 3:00 PM - St. Mary's Cathedral</p>
+                        <p><i class="fas fa-glass-cheers"></i> 6:30 PM - Grand Sunset Ballroom</p>
+                    </div>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Our Journey</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Emma & Daniel Wedding. Created with <i class="fas fa-heart"></i> for our special day.</p>
+                <p class="tagline">Love is not about how many days, months, or years you have been together. Love is about how much you love each other every single day.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
