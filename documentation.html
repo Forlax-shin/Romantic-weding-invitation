@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eternity - Seasonal Wedding Documentation</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px; background: #f4f4f4; }
+        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #d4af37; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+        .highlight { background: #fff3cd; padding: 10px; border-left: 4px solid #ffecb5; margin: 20px 0; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eternity Wedding Theme</h1>
+        <p>Thank you for purchasing <strong>Eternity</strong>, a minimalist seasonal wedding invitation template.</p>
+
+        <h2>1. Folder Structure</h2>
+        <ul>
+            <li><code>index.html</code> - Main template file</li>
+            <li><code>css/style.css</code> - Custom styling and Seasonal variables</li>
+            <li><code>js/script.js</code> - Countdown and Seasonal effects</li>
+        </ul>
+
+        <h2>2. How to Change Season</h2>
+        <p>The theme supports 4 seasons (Spring, Summer, Autumn, Winter). To set a default season, open <code>script.js</code> and find the <code>setSeason</code> function call or use the Toggle button in the preview.</p>
+        <div class="highlight">
+            <strong>Note:</strong> The colors are controlled by the <code>--hue</code> variable in <code>style.css</code>.
+        </div>
+
+        <h2>3. Setting the Countdown Date</h2>
+        <p>Open <code>script.js</code> and update the date in the <code>targetDate</code> variable:</p>
+        <code>const targetDate = new Date("December 31, 2025 23:59:59").getTime();</code>
+
+        <h2>4. Credits</h2>
+        <ul>
+            <li>Fonts: Google Fonts (Montserrat, Great Vibes)</li>
+            <li>Icons: FontAwesome (if used)</li>
+            <li>Images: Not included (Placeholders only)</li>
+        </ul>
+    </div>
+</body>
+</html>

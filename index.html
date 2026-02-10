@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eternity – Premium Wedding Theme</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body data-theme="spring" data-mode="light">
+
+<div id="seasonal-bg">
+  <div class="sun-flare"></div>
+  <div class="snowman">
+    <div class="snow-head"></div>
+    <div class="snow-body"></div>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="container nav-inner">
+    <div class="logo">A<span class="logo-amp">&</span>I</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#couple">Couple</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#gift">Gift</a></li>
+      <li><a href="#rsvp">RSVP</a></li>
+    </ul>
+    
+    <div class="nav-controls">
+      <div class="theme-selector">
+        <button class="theme-btn active" data-theme="spring" title="Spring">
+          <span class="theme-icon">🌸</span>
+          <span class="theme-label">Spring</span>
+        </button>
+        <button class="theme-btn" data-theme="summer" title="Summer">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-label">Summer</span>
+        </button>
+        <button class="theme-btn" data-theme="autumn" title="Autumn">
+          <span class="theme-icon">🍂</span>
+          <span class="theme-label">Autumn</span>
+        </button>
+        <button class="theme-btn" data-theme="winter" title="Winter">
+          <span class="theme-icon">❄️</span>
+          <span class="theme-label">Winter</span>
+        </button>
+      </div>
+      <button id="modeToggle" class="mode-toggle" title="Toggle Dark Mode">
+        <span class="mode-icon">🌙</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="container hero-content">
+    <span class="hero-tagline">The Wedding Of</span>
+    <h1 class="hero-title">Adam & Ivy</h1>
+    <div class="hero-divider"></div>
+    <p class="hero-date">Sunday, 20 December 2026</p>
+    <p class="hero-venue">The Grand Garden • San Francisco</p>
+    
+    <div class="countdown">
+      <div class="cd-box"><span id="days">00</span><small>Days</small></div>
+      <div class="cd-box"><span id="hours">00</span><small>Hours</small></div>
+      <div class="cd-box"><span id="minutes">00</span><small>Mins</small></div>
+      <div class="cd-box"><span id="seconds">00</span><small>Secs</small></div>
+    </div>
+  </div>
+  
+  <div class="scroll-indicator">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</section>
+
+<section id="couple" class="section">
+  <div class="container">
+    <h2 class="section-title">The Couple</h2>
+    <p class="section-sub">Two hearts, one soul</p>
+    
+    <div class="couple-grid">
+      <div class="couple-card groom">
+        <div class="frame-wrapper">
+          <div class="couple-img img-placeholder">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">👨‍💼</span>
+              <span class="placeholder-text">Adam's Photo</span>
+            </div>
+          </div>
+        </div>
+        <div class="couple-info">
+          <h3>Adam Smith</h3>
+          <p class="couple-role">The Groom</p>
+          <p class="couple-desc">Son of Mr. John & Mrs. Doe. Software engineer with a passion for photography.</p>
+          <div class="socials">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="couple-divider">
+        <span class="divider-heart">❤️</span>
+        <span class="divider-text">&</span>
+      </div>
+
+      <div class="couple-card bride">
+        <div class="frame-wrapper">
+          <div class="couple-img img-placeholder">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">👰</span>
+              <span class="placeholder-text">Ivy's Photo</span>
+            </div>
+          </div>
+        </div>
+        <div class="couple-info">
+          <h3>Ivy Polara</h3>
+          <p class="couple-role">The Bride</p>
+          <p class="couple-desc">Daughter of Mr. Alex & Mrs. Rose. Interior designer and floral artist.</p>
+          <div class="socials">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Pinterest</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section quote-section alt-bg">
+  <div class="container">
+    <div class="quote-container">
+      <p class="quote-text">
+        "And above all these put on love, which binds everything together in perfect harmony."
+      </p>
+      <span class="quote-ref">— Colossians 3:14</span>
+    </div>
+  </div>
+</section>
+
+<section id="story" class="section">
+  <div class="container">
+    <h2 class="section-title">Our Love Journey</h2>
+    <p class="section-sub">From first hello to forever after</p>
+    
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span class="year">2019</span>
+          <h4>The First Encounter</h4>
+          <p>We met at a coffee shop in downtown. It wasn't love at first sight, but a start of a beautiful friendship.</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <span class="year">2021</span>
+          <h4>First Date</h4>
+          <p>After two years of friendship, Adam finally asked Ivy out for a dinner under the stars.</p>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <span class="year">2023</span>
+          <h4>Moving Together</h4>
+          <p>We decided to build a home together, blending our styles and dreams into one shared space.</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <span class="year">2024</span>
+          <h4>She Said Yes!</h4>
+          <p>A surprise proposal at the place we first met. Tears of joy and a promise of forever.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title">Captured Moments</h2>
+    <p class="section-sub">A glimpse of our happiness together</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Engagement</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Travel</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Celebrations</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Adventures</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Family</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+          <span>Proposal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gift" class="section">
+  <div class="container">
+    <h2 class="section-title">Wedding Gift</h2>
+    <p class="section-sub">Your presence is the greatest gift, but if you wish to send a token of love:</p>
+
+    <div class="gift-container">
+      <div class="gift-card">
+        <div class="gift-icon">🏦</div>
+        <div class="bank-logo">BANK OF AMERICA</div>
+        <p class="account-number">1234 5678 9000</p>
+        <p class="account-name">Adam Smith</p>
+        <button class="copy-btn">Copy Number</button>
+      </div>
+
+      <div class="gift-card">
+        <div class="gift-icon">📱</div>
+        <div class="bank-logo">DIGITAL WALLET</div>
+        <p class="account-number">0812 3456 7890</p>
+        <p class="account-name">Ivy Polara</p>
+        <button class="copy-btn">Copy Number</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rsvp" class="section alt-bg">
+  <div class="container">
+    <div class="rsvp-wrapper">
+      <h2 class="section-title">RSVP</h2>
+      <p class="rsvp-sub">Please confirm your attendance by December 1st, 2026</p>
+
+      <form class="rsvp-form">
+        <div class="form-group">
+          <input type="text" id="name" required placeholder=" ">
+          <label for="name">Full Name</label>
+        </div>
+        
+        <div class="form-group">
+          <input type="email" id="email" required placeholder=" ">
+          <label for="email">Email Address</label>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <select id="attendance" required>
+              <option value="" disabled selected>Will you attend?</option>
+              <option value="yes">Yes, I will attend</option>
+              <option value="no">Sorry, I can't make it</option>
+              <option value="maybe">Not sure yet</option>
+            </select>
+            <label for="attendance">Attendance</label>
+          </div>
+          <div class="form-group">
+            <select id="guests" required>
+              <option value="" disabled selected>Number of Guests</option>
+              <option value="1">1 Person</option>
+              <option value="2">2 Persons</option>
+              <option value="3">3 Persons</option>
+              <option value="4">4 Persons</option>
+            </select>
+            <label for="guests">Guests</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" rows="4" placeholder=" "></textarea>
+          <label for="message">Message for the couple (Optional)</label>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <span class="btn-text">Send Confirmation</span>
+          <span class="btn-icon">✉️</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <h2 class="footer-title">Adam & Ivy</h2>
+    <p class="footer-sub">Thank you for being part of our journey to forever.</p>
+    
+    <div class="contact-info">
+      <p><strong>Ceremony:</strong> The Grand Garden, San Francisco</p>
+      <p><strong>Date:</strong> Sunday, December 20, 2026</p>
+      <p><strong>Time:</strong> 3:00 PM</p>
+    </div>
+    
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#couple">Couple</a>
+      <a href="#story">Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#gift">Gift</a>
+      <a href="#rsvp">RSVP</a>
+    </div>
+    
+    <div class="copyright">
+      &copy; 2026 Eternity Premium Wedding Theme. Crafted with ❤️ for ThemeForest.
+    </div>
+  </div>
+</footer>
+
+<script src="asset/js/script.js"></script>
+</body>
+</html>
